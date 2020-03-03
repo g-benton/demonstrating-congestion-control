@@ -4,7 +4,7 @@ import socket
 import select
 import time
 from typing import List, Dict, Optional
-from src.strategies import SenderStrategy
+from dcc.strategies import SenderStrategy
 
 READ_FLAGS = select.POLLIN | select.POLLPRI
 WRITE_FLAGS = select.POLLOUT

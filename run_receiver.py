@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
-from src.receiver import Receiver
+from dcc.receiver import Receiver
 
 
 def main() -> None:

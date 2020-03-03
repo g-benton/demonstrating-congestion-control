@@ -1,7 +1,8 @@
 import json
 import time
 import unittest
-from src.strategies import TahoeStrategy, FixedWindowStrategy
+import dcc
+from dcc.strategies import TahoeStrategy, FixedWindowStrategy
 
 
 class TestTahoeStrategy(unittest.TestCase):
